@@ -12,7 +12,7 @@
     font-style: normal;
 }
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icon-"]:before, [class*="icon-"]:before {
     font-family: "fontello";
     font-style: normal;
     font-weight: normal;
@@ -554,8 +554,8 @@ html, body {
 .icon {
     line-height: 40px;
     padding: 9px 11px;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #000;
+    border: 1px solid #000;
     border-radius: 50%;
 }
 
@@ -568,7 +568,7 @@ html, body {
 }
 
 .icon:hover {
-    background-color: #fff;
+    background-color: #c7c6c6;
 }
 
 .site-footer a {
