@@ -13,8 +13,8 @@
 }
 
 [class^="icon-"]:before, [class*="icon-"]:before {
-    /* font-family: "fontello"; */
-    font-family: fontawesome_;
+    font-family: "fontello";
+    /* font-family: fontawesome_; */
     font-style: normal;
     font-weight: normal;
     speak-as: none;
@@ -43,11 +43,6 @@
 /* '' */
 .icon-gplus:before {
     content: '\f0d5';
-}
-
-/* '' */
-.icon-linkedin:before {
-    content: '\f0e1';
 }
 
 /* '' */
