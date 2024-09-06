@@ -332,7 +332,7 @@ html, body {
 /* Section: Services */
 .section-services {
     position: relative;
-    padding-top: 220px;
+    padding-top: 80px;
 }
 
 .section-services:before {
@@ -357,7 +357,7 @@ html, body {
 }
 
 .section-services .container {
-    padding: 120px 100px;
+    padding: 80px 100px;
     position: relative;
     background-color: #fff;
     box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
