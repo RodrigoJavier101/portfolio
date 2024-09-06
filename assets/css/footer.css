@@ -1,39 +1,6 @@
-.footer {
-    position: fixed;
-
-    display: grid;
-    grid-template-columns: 3fr 21em 3fr;
-    grid-template-rows: 1fr;
-    grid-gap: 10px;
-
-    justify-content: center;
-    align-items: center;
-
-    left: 0;
-    bottom: 0;
-
-    cursor: default;
-
-    width: 100%;
-    height: 5.5em;
-
-    padding-top: 0em;
-    padding-bottom: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-
-    /* font-size: 100%; */
-
-    z-index: 2;
-
-    color: white;
-
-    /* background-color: var(--gray); */
-}
 
 
-
-.footer .footer-icons-sn {
+.footer-icons-sn {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -45,17 +12,17 @@
     /* background-color: var(--footer-bg); */
 }
 
-.footer .footer-icons-sn ul {
+.footer-icons-sn {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-gap: 0px;
     justify-content: center;
 
-    opacity: 1;
+    /* opacity: 1; */
 }
 
-.footer .footer-icons-sn ul li {
+.footer-icons-sn {
 
     -moz-animation: nav-icons 0.2s ease-in-out forwards;
     -webkit-animation: nav-icons 0.2s ease-in-out forwards;
@@ -91,12 +58,12 @@
     /* border: 1px solid yellow; */
 }
 
-.footer .footer-icons-sn ul li a {
+.footer-icons-sn ul li a {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-touch-callout: none;
 }
 
-.footer .footer-icons-sn ul li a {
+.footer-icons-sn ul li a {
 
     text-decoration: none !important;
 
@@ -105,7 +72,7 @@
     padding: 0;
 }
 
-.footer .footer-icons-sn ul li a:before {
+.footer-icons-sn ul li a:before {
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -126,33 +93,33 @@
     text-decoration: none !important;
 }
 
-.footer .footer-icons-sn ul li a:hover {
+.footer-icons-sn ul li a:hover {
     font-size: 1.1em;
 }
 
-.footer .footer-icons-sn ul li a:hover:before {
+.footer-icons-sn ul li a:hover:before {
     /* background-color: rgba(255, 255, 255, 0.175); */
     background-color: rgb(89, 139, 155);
     color: var(--light);
     border: solid 2px var(--light);
 }
 
-.footer .footer-icons-sn ul li a:active {
+.footer-icons-sn ul li a:active {
     font-size: 0.95em;
     background: none;
 }
 
-.footer .footer-icons-sn ul li a:active:before {
+.footer-icons-sn ul li a:active:before {
     background-color: rgba(255, 255, 255, 0.35);
     color: var(--light);
 }
 
-.footer-icon {
+.footer-icons-sn {
     text-decoration: none;
     position: relative;
 }
 
-.footer-icon:before {
+.footer-icons-sn:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -165,44 +132,44 @@
     font-weight: 100;
 }
 
-.footer-icon.solid:before {
+.footer-icons-sn.solid:before {
     font-weight: 900;
 }
 
-.footer-icon.brands:before {
+.footer-icons-sn.brands:before {
     font-family: fontawesome_;
 }
 
-.footer-icon>.label {
+.footer-icons-sn>.label {
     display: none;
 }
 
-.footer .footer-icons-sn a span {
+.footer-icons-sn a span {
     display: none;
 }
 
-.footer .footer-icons-sn li:nth-child(1) {
+.footer-icons-sn li:nth-child(1) {
     -moz-animation-delay: var(--footer-delay-1);
     -webkit-animation-delay: var(--footer-delay-1);
     -ms-animation-delay: var(--footer-delay-1);
     animation-delay: var(--footer-delay-1);
 }
 
-.footer .footer-icons-sn li:nth-child(2) {
+.footer-icons-sn li:nth-child(2) {
     -moz-animation-delay: var(--footer-delay-2);
     -webkit-animation-delay: var(--footer-delay-2);
     -ms-animation-delay: var(--footer-delay-2);
     animation-delay: var(--footer-delay-2);
 }
 
-.footer .footer-icons-sn li:nth-child(3) {
+.footer-icons-sn li:nth-child(3) {
     -moz-animation-delay: var(--footer-delay-3);
     -webkit-animation-delay: var(--footer-delay-3);
     -ms-animation-delay: var(--footer-delay-3);
     animation-delay: var(--footer-delay-3);
 }
 
-.footer .footer-icons-sn li:nth-child(4) {
+.footer-icons-sn li:nth-child(4) {
     -moz-animation-delay: var(--footer-delay-4);
     -webkit-animation-delay: var(--footer-delay-4);
     -ms-animation-delay: var(--footer-delay-4);
