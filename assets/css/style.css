@@ -364,14 +364,14 @@ html, body {
 }
 
 .service h4 {
-    margin: 25px 0;
+    margin: 25px 0px;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .service p {
     color: #000;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 /* Section: Portfolio */
