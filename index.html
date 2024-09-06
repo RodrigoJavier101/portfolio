@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+    ''
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -30,7 +30,6 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
@@ -60,9 +59,11 @@
 
                     <ul class="nav navbar-nav navbar-right">
 
-                        <li class="page-scroll"><a href="#hero">Home</a></li>
+                        <li class="page-scroll"><a href="#hero"><span
+                                    style="font-weight: 900; font-size: 1.2rem;">{</span> Init <span
+                                    style="font-weight: 900; font-size: 1.2rem;">}</span></a></li>
                         <li class="page-scroll"><a href="#about">About</a></li>
-                        <li class="page-scroll"><a href="#service">Service</a></li>
+                        <li class="page-scroll"><a href="#experience">Experience</a></li>
                         <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
                         <li class="page-scroll"><a href="#contact">Contact</a></li>
 
@@ -83,9 +84,10 @@
                     <h1>Rodrigo Javier</h1>
                     <div class="page-scroll">
                         <p class="job-title">Android Developer</p>
-                        <a href="#contact" class="btn btn-fill ">Download my Resume</a>
+                        <a href="./assets/certs/Rodrigo Javier Garrido Dagle resume --.pdf" target="_blank"
+                            class="btn btn-fill ">My resume</a>
                         <div class="clearfix visible-xxs"></div>
-                        <a href="#portfolio" class="btn btn-border">Explore more</a>
+                        <a href="#portfolio" class="btn btn-border">See down below</a>
                     </div>
                 </div>
 
@@ -101,25 +103,47 @@
 
         <section id="about" class="site-section section-about text-center">
             <div class="container">
+
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
                         <h2>About</h2>
                         <img src="./assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>I'm a former law student, but several years ago I straighten my path towards Computer Science
+                        <p>I'm a former law student, but several years ago I straighten my path towards <span
+                                style="font-weight: 900;"><i>Computer Science</i></span>
                             which is my passion.</p>
-                        <a href="#" class="btn btn-fill" target="_blank" download>Download my Resume</a>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+
+                        <p>I have a few years working and improving on my specialization in <span
+                                style="font-weight: 900;"><i>Android and Kotlin
+                                    Multiplatform</i></span> mobile development.</p>
+                        <p>I have some certifications as well.</p>
+                    </div>
+                    <div class="col-md-12 col-sm-offset-0">
+                        <a href="#" class="btn btn-border" target="_blank" download>Mobile certification</a>
+                        <a href="#" class="btn btn-border" target="_blank" download>English B2 certification</a>
+                        <a href="./assets/certs/facilitator_certificate.pdf" class="btn btn-border" target="_blank"
+                            download>Facilitator certification</a>
                     </div>
                 </div>
             </div>
+
+            <br>
         </section>
 
-        <section class="site-section section-skills">
+
+        <!--
+         <section class="site-section section-skills">
             <div class="container">
                 <div class="text-center">
                     <h3>My Main Skills</h3>
                     <img src="./assets/img/lines.svg" class="img-lines" alt="lines">
                 </div>
-<!--             
+            
                 <div class="row">
 
                     <div class="col-md-6">
@@ -176,26 +200,29 @@
                     </div>
 
                 </div>
-             -->
+            
             </div>
-        </section>
+        </section> -->
 
-        <section id="service" class="site-section section-services overlay text-center">
+        <section id="experience" class="site-section section-services overlay text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3>What i do</h3>
+                        <h3>Experience</h3>
                         <img src="./assets/img/lines.svg" class="img-lines" alt="lines">
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                         <div class="service">
-                            <img style="width: 60px;" src="./assets/img/booking.png" alt="Front End Developer">
+                            <img style="width: 60px;" src="./assets/img/booking.png" alt="mobile">
                             <h4>Android mobile development</h4>
                             <p>As a Kotlin developer, I have experience the main Androir platform tools
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+
+                    <br><br><br>
+
+                    <div class="col-sm-12">
                         <div class="service">
                             <img src="./assets/img/back-end.svg" alt="Back End Developer">
                             <h4>Back-end</h4>
@@ -310,7 +337,7 @@
 
                 <h3>Contact</h3>
                 <img src="./assets/img/lines.svg" class="img-lines" alt="lines">
-                <form>
+                <!-- <form>
                     <div class="row">
                         <div class="col-sm-6">
                             <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
@@ -325,7 +352,7 @@
                     </div>
                     <button href="#" class="btn btn-border" type="submit">Hire Me <span
                             class="glyphicon glyphicon-send"></span></button>
-                </form>
+                </form> -->
             </div>
         </section>
 
