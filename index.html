@@ -260,7 +260,7 @@
                         <div class="portfolio-item">
                             <img src="./assets/img/Portfolio-1.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Monitor Político</h4>
+                                <h4 style="font-size: 1.3em;">Monitor Político</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span
                                         class="glyphicon glyphicon-eye-open"></span></a>
                             </div>
@@ -271,7 +271,7 @@
                         <div class="portfolio-item">
                             <img src="./assets/img/Portfolio-2.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Mercado Libre global seller admin</h4>
+                                <h4 style="font-size: 1.3em;">Mercado-Libre global seller</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span
                                         class="glyphicon glyphicon-eye-open"></span></a>
                             </div>
@@ -282,7 +282,7 @@
                         <div class="portfolio-item">
                             <img src="./assets/img/Portfolio-3.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Electric vehicle charger</h4>
+                                <h4 style="font-size: 1.3em;">Electric vehicle charger</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span
                                         class="glyphicon glyphicon-eye-open"></span></a>
                             </div>
@@ -293,7 +293,7 @@
                         <div class="portfolio-item">
                             <img src="./assets/img/Portfolio-4.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Scheduler</h4>
+                                <h4 style="font-size: 1.3em;">Scheduler</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span
                                         class="glyphicon glyphicon-eye-open"></span></a>
                             </div>
@@ -396,23 +396,24 @@
     </main>
 
     <footer id="colophon" class="site-footer">
+
         <div class="container">
             <div class="row">
+
                 <div class="col-sm-4 col-xs-12">
 
-                    <a class="fa-youtube" href="https://youtube.com/@CodeChunksEs" target="_blank"></a>
+                    <a class="icon linkedin-bg" href="https://www.linkedin.com/in/rodrigo-javier-gd/" target="_blank"><i
+                            class="icon-linkedin"></i></a>
 
                     <a class="icon linkedin-bg" href="https://github.com/jardindunoix/" target="_blank"><i
                             class="icon-linkedin"></i></a>
 
-                    <a class="icon linkedin-bg" href="https://github.com/rodrigojavier101/" target="_blank"><i
-                            class="icon-linkedin"></i></a>
-
+                    <a class="fa-youtube" href="https://youtube.com/@CodeChunksEs" target="_blank"></a>
 
                 </div>
 
                 <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-                    <p class="copyright">Chile, 2024</p>
+                    <p class="copyright">Chile, <span id="year"></span></p>
                 </div>
 
                 <div class="col-sm-4 col-xs-3">
@@ -420,8 +421,10 @@
                         <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
                     </div>
                 </div>
+
             </div>
         </div>
+
     </footer>
 
 
@@ -475,16 +478,13 @@
                     <img class="img-res" src="./assets/img/portfolio-1.jpg" alt="">
                 </div>
                 <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
+                    <h4 class="modal-title">Monitor Politico</h4>
+                    <p>It is a backend-agnostic project that uses web scraping to get the data and retrieves the
+                        congressmen information.</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="#" class="btn btn-fill">Visit Page</a>
+                    <a href="https://play.google.com/store/search?q=monitor%20politico&c=apps" target="_blank"
+                        class="btn btn-fill">Go to play store</a>
                 </div>
             </div>
         </div>
@@ -498,16 +498,17 @@
                     <img class="img-res" src="./assets/img/portfolio-2.jpg" alt="">
                 </div>
                 <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
+                    <h4 class="modal-title">Mercado-Libre global seller</h4>
+                    <p>Is an integration with the Mercado Libre API, it uses a mocked backend from <a
+                            href="https://sellers-bltrading.cl"><span style="font-weight: 900;">Sellers BL
+                                Trading</span></a> system
+                        (developed by me as well) is the in-production system which shows the processes and results of
+                        stock movements from
+                        various global sellers.</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="#" class="btn btn-fill">Visit Page</a>
+                    <a href="https://play.google.com/store/search?q=Mercado-Libre%20global%20seller&c=apps"
+                        target="_blank" class="btn btn-fill">Go to play store</a>
                 </div>
             </div>
         </div>
@@ -521,16 +522,20 @@
                     <img class="img-res" src="./assets/img/portfolio-3.jpg" alt="">
                 </div>
                 <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
+                    <h4 class="modal-title">Electric vehicle charger</h4>
+                    <p>Is a clone application from my dependent work in <a href="https://www.dhemax.com/en">Dhemax</a>
+                        which is a IT company located in Chile
+                        where I was a junior mobile developer between April to August in
+                        2023. Using Jira as a scrum
+                        job admin.
+                        The mobile team size were three mobile developers (2 android and 1 IOS) plus one Quality
+                        assurance tester, one UI/UX
+                        designer a backend team and one Product Manager. So, I’m experienced collaborating with
+                        designers and UX experts.</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="#" class="btn btn-fill">Visit Page</a>
+                    <a href="https://play.google.com/store/search?q=Electric%20vehicle%20charger&c=apps" target="_blank"
+                        class="btn btn-fill">Go to play store</a>
                 </div>
             </div>
         </div>
@@ -544,62 +549,14 @@
                     <img class="img-res" src="./assets/img/portfolio-4.jpg" alt="">
                 </div>
                 <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
+                    <h4 class="modal-title">Scheduler for Common Debts</h4>
+                    <p>Organizes the accounts in a group of people with related debts. The idea is to keep the common
+                        debts synchronized in
+                        every participant app and so everybody knows how updated everyone is.</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="#" class="btn btn-fill">Visit Page</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="portfolioItem5" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-                    <img class="img-res" src="./assets/img/portfolio-5.jpg" alt="">
-                </div>
-                <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#" class="btn btn-fill">Visit Page</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="portfolioItem6" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-                    <img class="img-res" src="./assets/img/portfolio-6.jpg" alt="">
-                </div>
-                <div class="modal-body">
-                    <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
-                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
-                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
-                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
-                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
-                        hendrerit.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#" class="btn btn-fill">Visit Page</a>
+                    <a href="https://play.google.com/store/search?q=Scheduler%20for%20Common%20Debts&c=apps"
+                        target="_blank" class="btn btn-fill">Go to play store</a>
                 </div>
             </div>
         </div>
@@ -613,6 +570,10 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
     <script src="./assets/js/jquery.countTo.min.js"></script>
     <script src="./assets/js/script.js"></script>
+
+    <script>
+        document.querySelector("#year").innerHTML = new Date().toDateString()
+    </script>
 
 </body>
 
