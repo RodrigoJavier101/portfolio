@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+:root {
+    /* TIME */
+    --overlay-time: 1.5s;
+    --bolea-time: 3.42s;
+    --bolea-delay: 2s;
+    --name-time: 4.33s;
+    --name-delay: 2s;
+
+    --name-top-y-0: -3em;
+    --name-top-y-50: -1em;
+    --name-top-y-100: 4em;
+
+    --name-top-margin-top-rodrigo: -3em;
+    --name-top-margin-top-rodrigo2: -4.5em;
+    --name-top-margin-left-javier: 47em;
+
+    /* --name-top-delay: 6.4s;
+    --name-top-javier-delay: 7.1s; */
+    --name-top-delay: 1.4s;
+    --name-top-javier-delay: 2.1s;
+
+    --name-top-1-duration: 0.3s;
+    --name-top-2-duration: 0.4s;
+    --name-top-3-duration: 0.5s;
+    --name-top-4-duration: 0.6s;
+    --name-top-5-duration: 0.7s;
+    --name-top-6-duration: 0.8s;
+    --name-top-7-duration: 0.9s;
+    --name-top-8-duration: 1s;
+
+    --name-top-9-duration: 0.3s;
+    --name-top-10-duration: 0.45s;
+    --name-top-11-duration: 0.55s;
+    --name-top-12-duration: 0.65s;
+    --name-top-13-duration: 0.75s;
+    --name-top-14-duration: 1.6s;
+
+
+    --footer-delay-1: 1.2s;
+    /* 5.2s */
+    --footer-delay-2: 1.3s;
+    /* 5.7s */
+    --footer-delay-3: 1.4s;
+    /* 5.45s */
+    --footer-delay-4: 1.5s;
+    /* 5.95s */
+    /* COLOR */
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #2A4B7C;
+    --secondary: #202C45;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f1f3ff;
+    --border-bottom: brown;
+    --snow-ghost: #f8f8ff;
+    --smoke: #f5f5f5;
+    --smoke2: #b4b3b3;
+
+    --dark: #343a40;
+    --dark-vampire: #080808;
+
+    --footer-bg: #355e3b;
+    /* SIZE */
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    /* Z index */
+    --z-index-bg: 1;
+    --z-index-overlay: 3;
+    --z-index-header-menu: 2;
+    --z-index-footer: 9;
+    --z-index-name-dev: 2;
+    --z-index-flame: 3;
+    --z-index-wraper-content: 5;
+}

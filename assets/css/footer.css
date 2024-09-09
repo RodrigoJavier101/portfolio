@@ -1,14 +1,9 @@
-
-
 .footer-icons-sn {
     display: grid;
     justify-content: center;
     align-items: center;
-
     border-radius: 15px;
-
     height: 5.5em;
-
     /* background-color: var(--footer-bg); */
 }
 
@@ -61,6 +56,7 @@
 .footer-icons-sn ul li a {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-touch-callout: none;
+    list-style: none;
 }
 
 .footer-icons-sn ul li a {
@@ -93,9 +89,9 @@
     text-decoration: none !important;
 }
 
-.footer-icons-sn ul li a:hover {
+/* .footer-icons-sn ul li a:hover {
     font-size: 1.1em;
-}
+} */
 
 .footer-icons-sn ul li a:hover:before {
     /* background-color: rgba(255, 255, 255, 0.175); */
@@ -167,13 +163,6 @@
     -webkit-animation-delay: var(--footer-delay-3);
     -ms-animation-delay: var(--footer-delay-3);
     animation-delay: var(--footer-delay-3);
-}
-
-.footer-icons-sn li:nth-child(4) {
-    -moz-animation-delay: var(--footer-delay-4);
-    -webkit-animation-delay: var(--footer-delay-4);
-    -ms-animation-delay: var(--footer-delay-4);
-    animation-delay: var(--footer-delay-4);
 }
 
 @-moz-keyframes nav-icons {

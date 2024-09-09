@@ -1,5 +1,7 @@
-/* FONT
-================================================== */
+@import url('./fontawesome-all.min.css');
+@import url('./variables.css');
+@import url('./footer.css');
+
 @font-face {
     font-family: 'fontello';
     src: url('../fonts/fontello.eot?37927580');
