@@ -1,4 +1,5 @@
 @import url('./fontawesome-all.min.css');
+@import url('./bootstrap.min.css');
 @import url('./variables.css');
 @import url('./footer.css');
 
@@ -7,56 +8,16 @@
     src: url('../fonts/Montserrat-Regular.ttf');
 }
 
-html, * {
-    font-family: 'fontello' !important;
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL'0,
+        'wght'400,
+        'GRAD'0,
+        'opsz'24
 }
 
-[class^="icon-"]:before, [class*="icon-"]:before {
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    speak-as: none;
-    display: inline-block;
-    text-decoration: inherit;
-    width: 1em;
-    margin-right: .2em;
-    text-align: center;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1em;
-    margin-left: .2em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-twitter:before {
-    content: '\f099';
-}
-
-/* '' */
-.icon-facebook:before {
-    content: '\f09a';
-}
-
-/* '' */
-.icon-gplus:before {
-    content: '\f0d5';
-}
-
-/* '' */
-.icon-linkedin:before {
-    content: '\f0e1';
-}
-
-/* '' */
-.icon-up:before {
-    content: '\f176';
-}
-
-/* '' */
-
-/* CUSTOM RESETS
-================================================== */
+/* CUSTOM RESETS  */
 a {
     transition: color 0.25s ease-in-out;
     -moz-transition: color 0.25s ease-in-out;

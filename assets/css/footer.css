@@ -4,16 +4,124 @@
     -webkit-touch-callout: none;
     list-style: none;
 
-    
     text-decoration: none !important;
     border: 0;
     margin: 0 20px 0 0;
     padding: 0;
-    
+
     width: 40px;
-    
+
     background-color: transparent;
-    /* background-color: red; */
+}
+
+.arrow-up {
+    font-family: fontawesome3_;
+
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    /* border: solid 1.5px var(--smoke2); */
+    font-size: 2em;
+
+    /* margin-top: 2.3rem; */
+
+    height: 0.5em;
+    width: 0.5em;
+
+    line-height: 0.4em;
+    position: relative;
+    text-align: center;
+
+    text-decoration: none !important;
+}
+
+.brands3:before {
+    font-family: fontawesome3_;
+
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    /* border: solid 1.5px var(--smoke2); */
+    font-size: 1.2em;
+
+    /* margin-top: 2.3rem; */
+
+    height: 0.5em;
+    width: 0.5em;
+
+    line-height: 0.4em;
+    position: relative;
+    text-align: center;
+
+    text-decoration: none !important;
+}
+
+.brands2:before {
+    font-family: fontawesome2_;
+
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    /* border: solid 1.5px var(--smoke2); */
+    font-size: 1.5em;
+
+    /* margin-top: 2.3rem; */
+
+    height: 0.5em;
+    width: 0.5em;
+
+    line-height: 0.4em;
+    position: relative;
+    text-align: center;
+
+    text-decoration: none !important;
+}
+
+.brands4:before {
+    font-family: fontawesome2_;
+
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    /* border: solid 1.5px var(--smoke2); */
+    font-size: 2.5em;
+
+    /* margin-top: 2.3rem; */
+
+    height: 1.5em;
+    width: 1.5em;
+
+    line-height: 1.4em;
+    position: relative;
+    text-align: center;
+
+    text-decoration: none !important;
+
+
+
+    position: absolute;
+    right: 0;
+    padding: 10px 11px;
+    margin-top: 0;
+    background-color: #fff;
+    font-size: 16px;
+    color: #212121;
+    border-left: 1px solid #212121;
+    border-bottom: 1px solid #212121;
+    opacity: 1;
+    transition: box-shadow 0.25s ease-in-out;
+    -moz-transition: box-shadow 0.25s ease-in-out;
+    -webkit-transition: box-shadow 0.25s ease-in-out;
+    -o-transition: box-shadow 0.25s ease-in-out;
+    -ms-transition: box-shadow 0.25s ease-in-out;
 }
 
 .brands:before {
@@ -24,9 +132,8 @@
     -ms-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 
-
     /* border: solid 1.5px var(--smoke2); */
-    font-size: 2em;
+    font-size: 2.5em;
 
     /* margin-top: 2.3rem; */
 
